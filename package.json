@@ -1,5 +1,5 @@
 {
-  "name": "bunpublishtest",
+  "name": "@bunpublishtestorg/bunpublishtest",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -7,5 +7,16 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "bin": {
+    "bunpublishtest": "index.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunpublishtestorg/bunpublishtest.git"
   }
 }
